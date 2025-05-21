@@ -25,7 +25,7 @@ These simulations model a 2D ideal gas where particles interact solely via **ela
   The velocities after elastic collision between a particle and the moving wall are given by:
 
   ```math
-  \vec{v}_p' = \frac{m_p - m_w}{m_p + m_w} \vec{v}_p + \frac{2 m_w}{m_p + m_w} \vec{v}_w
+  \vec{v}_p' = \frac{m_p - m_w}{m_p + m_w} \vec{v}_p + \frac{2 m_w}{m_p + m_w} \vec{v}_w \\
 
   \vec{v}_w' = \frac{m_w - m_p}{m_p + m_w} \vec{v}_w + \frac{2 m_p}{m_p + m_w} \vec{v}_p
   ```
