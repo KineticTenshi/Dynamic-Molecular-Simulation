@@ -11,9 +11,9 @@ These simulations model a 2D ideal gas where particles interact solely via **ela
 ### Key Equations
 
 - **System energy**:
-  \[
+  $
   E = \sum_{i=1}^{N} \frac{1}{2} m_i v_i^2 = N k_B T
-  \]
+  $
 
 - **Chamber temperature**:
   \[
