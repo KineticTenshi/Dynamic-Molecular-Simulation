@@ -4,7 +4,7 @@ This repository contains multiple event-driven simulations of ideal gases compos
 
 ---
 
-## 🧪 Physical Background
+## Physical Background
 
 These simulations model a 2D ideal gas where particles interact solely via **elastic collisions**, either with each other or with walls. No interparticle potentials are considered — the system evolves strictly according to conservation of momentum and kinetic energy.
 
@@ -33,7 +33,7 @@ These simulations model a 2D ideal gas where particles interact solely via **ela
 
 ---
 
-## 📂 Simulations Overview
+## Simulations Overview
 
 ### 1. **Monomer-only simulation**
 
@@ -72,7 +72,7 @@ py .\Projet_Moving_Wall_EventDrivenSimulation.py
 
 ---
 
-## 📈 Notable Physical Results
+## Notable Physical Results
 
 - **Equilibrium**: The simulations confirm that the system reaches a thermodynamic steady state characterized by **equal temperature** and **pressure**, but not necessarily equal **density**.
 
@@ -84,7 +84,7 @@ py .\Projet_Moving_Wall_EventDrivenSimulation.py
 
 ---
 
-## ⚠️ Requirements
+## Requirements
 
 - Python 3.10+
 - `numpy`, `matplotlib`
@@ -98,7 +98,7 @@ pip install numpy matplotlib
 
 ---
 
-## 👩‍💻 Authors
+## Authors
 
 - Domitille Avalle  
 - Eric EA
@@ -107,6 +107,6 @@ Project under the supervision of **Prof. Juliane Klmaser**, November 2021.
 
 ---
 
-## 📬 Notes
+## Notes
 
 This project was developed in an academic context to better understand the microscopic foundations of thermodynamics via simulation. Contributions or questions are welcome via issues or pull requests.
