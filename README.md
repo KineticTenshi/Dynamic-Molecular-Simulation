@@ -11,26 +11,18 @@ These simulations model a 2D ideal gas where particles interact solely via **ela
 ### Key Equations
 
 - **System energy**:
-  $
-  E = \sum_{i=1}^{N} \frac{1}{2} m_i v_i^2 = N k_B T
-  $
+  $E = \sum_{i=1}^{N} \frac{1}{2} m_i v_i^2 = N k_B T$
 
 - **Chamber temperature**:
-  \[
-  T_j = \frac{1}{N_j k_B} \sum_{q=1}^{N_j} \frac{m_q}{2} \vec{v}_q^2
-  \]
+  $T_j = \frac{1}{N_j k_B} \sum_{q=1}^{N_j} \frac{m_q}{2} \vec{v}_q^2$
 
 - **Wall–particle collision mechanics**:
 
   The velocities after elastic collision between a particle and the moving wall are given by:
 
-  \[
-  \vec{v}_p' = \frac{m_p - m_w}{m_p + m_w} \vec{v}_p + \frac{2 m_w}{m_p + m_w} \vec{v}_w
-  \]
+  $\vec{v}_p' = \frac{m_p - m_w}{m_p + m_w} \vec{v}_p + \frac{2 m_w}{m_p + m_w} \vec{v}_w$
 
-  \[
-  \vec{v}_w' = \frac{m_w - m_p}{m_p + m_w} \vec{v}_w + \frac{2 m_p}{m_p + m_w} \vec{v}_p
-  \]
+  $\vec{v}_w' = \frac{m_w - m_p}{m_p + m_w} \vec{v}_w + \frac{2 m_p}{m_p + m_w} \vec{v}_p$
 
 ---
 
